@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RPG CLICKER</title>
+    <link rel="icon" type="png" href="sword.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <h1>-RPG CLICKER-</h1>
+        <div id="player">
+            <div id="player-health-bar">
+                <span id="player-health"></span>
+                <img src="YouWarrior.png" alt="YouWarrior">
+            </div>
+        </div>
+        <div id="boss">
+            <div id="boss-health-bar">
+                <span id="boss-health"></span>
+                <img src="enemy.png" alt="enemy">
+            </div>
+        </div>
+        <button id="play-btn">Attack</button>
+        <div id="stats-container">
+            <div id="stats">
+                <h2>Stats</h2>
+                <div id="level">Level: 1</div>
+                <div id="player-xp-bar">
+                    <span id="player-xp"></span>
+                </div>
+                <div id="gold-count">Gold: 0</div>
+                <div id="damage-points">Damage Points: 0</div>
+                <div id="health-points">Health Points: 0</div>
+                <div id="critical-chance">Critical Chance: 0%</div>
+            </div>
+            <div id="upgrade-container">
+                <h2>Upgrades</h2>
+                <button id="increase-damage-btn">Increase Damage (Cost: 5 Gold)</button>
+                <button id="increase-health-btn">Increase Health (Cost: 5 Gold)</button>
+                <button id="increase-critical-btn">Increase Critical Chance (Cost: 10 Gold)</button>
+            </div>
+        </div>
+    </div>
+    <script src="RPGRuntime.js"></script>
+</body>
+</html>

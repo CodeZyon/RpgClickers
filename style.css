@@ -1,0 +1,168 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    #game-container {
+    text-align: center;
+    outline-style: solid;
+    outline-color: white;
+    background-image: url("MedievalBG.jpg");
+    image-rendering: auto;
+    margin: 100px;
+    align-items: center;
+    align-self: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 30px;
+color: white;
+}
+
+#player {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#player img {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+body {
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 200% 200%;
+  animation: rainbow 10s ease-in-out infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#boss {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#boss img {
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#player-health-bar {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    margin-top: 20px;
+outline-style: solid;
+}
+
+#boss-health-bar {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    margin-top: 20px;
+outline-style: solid;
+}
+
+#player-health {
+    display: block;
+    height: 100%;
+    background-color: lime;
+}
+
+#boss-health {
+    display: block;
+    height: 100%;
+    background-color: red;
+}
+
+#stats-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+background-color: rgba(0, 0, 0, 0);
+outline-style: solid;
+outline-color: white;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 20px;
+}
+
+#stats {
+    text-align: left;
+color: white;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+#player-xp-bar {
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    margin-top: 5px;
+}
+
+#level {
+    font-weight: bolder;
+    font-size: medium;
+    color: lime;
+}
+
+#player-xp {
+    display: block;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+#upgrade-container {
+    text-align: left;
+color: white;
+}
+
+#play-btn {
+    margin-top: 30px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+background-color: red;
+outline-style: solid;
+outline-color: white;
+color: white   ;
+}
+
+#play-btn:hover {
+    padding: 9px 19px;
+}
+
+#upgrade-container button {
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+}
